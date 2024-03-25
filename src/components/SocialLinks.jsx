@@ -90,6 +90,8 @@ const Link = styled.a`
   text-decoration: none;
   color: var(--color-white);
   background-color: var(--color-grey);
+  transition-property: color, background-color;
+  transition-duration: 300ms;
 
   &:hover {
     color: var(--color-dark-grey);
